@@ -35,6 +35,8 @@
 
 
 @interface CircularPicker(){
+
+    //Paths for colors
     CGMutablePathRef redPart;
     CGMutablePathRef greenPart;
     CGMutablePathRef bluePart;
