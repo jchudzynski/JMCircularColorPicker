@@ -15,12 +15,12 @@ Installation
 
 4. Initialize picker and add it to the view using method like:
 
-      CircularPicker * cp = [[CircularPicker alloc] initWithFrame:self.view.bounds andCompletionHandler:^(UIColor * color){
-       //use the color however you would like
-       NSLog(@"Color is %@",color);
-       }];
+		CircularPicker * cp = [[CircularPicker alloc] initWithFrame:self.view.bounds andCompletionHandler:^(UIColor * color){
+		//use the color however you would like
+		NSLog(@"Color is %@",color);
+		}];
     
-      //add to the view
-      [self.view addSubview:cp];
+		//add to the view
+		[self.view addSubview:cp];
 
 Have fun!
